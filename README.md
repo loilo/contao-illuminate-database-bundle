@@ -1,4 +1,6 @@
 # Illuminate Database for Contao
+[![Test status on Travis](https://badgen.net/travis/loilo/contao-illuminate-database-bundle?label=tests&icon=travis)](https://travis-ci.org/loilo/contao-illuminate-database-bundle)
+[![Version on packagist.org](https://badgen.net/packagist/v/loilo/contao-illuminate-database-bundle)](https://packagist.org/packages/loilo/contao-illuminate-database-bundle)
 
 Use Laravel's [Illuminate Database](https://laravel.com/docs/queries) abstraction in Contao with support for Contao models.
 
