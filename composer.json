@@ -2,6 +2,7 @@
     "name": "loilo/contao-illuminate-database-bundle",
     "description": "Use Laravel's Illuminate Database abstraction in Contao",
     "type": "contao-bundle",
+    "version": "1.0.0",
     "require": {
         "illuminate/database": "^5.8"
     },
