@@ -1,0 +1,10 @@
+services:
+    loilo_contao_illuminate_database.builder_factory:
+        class: Loilo\ContaoIlluminateDatabaseBundle\Database\QueryBuilderFactory
+        arguments:
+            - "%database_host%"
+            - "%database_port%"
+            - "%database_name%"
+            - "%database_user%"
+            - "%database_password%"
+        public: true
