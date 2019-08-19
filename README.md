@@ -52,3 +52,11 @@ $user = db()
 
 // $user will be an instance of \UserModel
 ```
+
+### Customizing Connections
+The `db()` function takes an optional argument which may override keys from the default connection configuration [passed to Laravel's connection manager](https://laravel.com/api/5.8/Illuminate/Database/Capsule/Manager.html#method_addConnection):
+
+```php
+// Set an empty prefix to use the "tl_user" table
+db([ 'prefix' => '' ])->from('tl_user')->first();
+```
