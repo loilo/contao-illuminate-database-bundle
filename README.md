@@ -6,7 +6,7 @@ Use Laravel's [Illuminate Database](https://laravel.com/docs/queries) abstractio
 
 ## Installation
 ```bash
-composer require tozen/contao-illuminate-database
+composer require loilo/contao-illuminate-database-bundle
 ```
 
 ## Usage
