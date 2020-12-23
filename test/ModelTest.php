@@ -11,7 +11,7 @@ class ModelTest extends BaseTest
 {
     protected static $staticContaoModel;
 
-    public static function setUpBeforeClass()
+    public static function setUpBeforeClass(): void
     {
         $staticContaoModel = Mockery::mock('alias:Contao\\Model');
         $staticContaoModel

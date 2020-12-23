@@ -22,7 +22,7 @@ class ConfiguredConnectionTest extends TestCase
      */
     protected $capsule;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         /** @var Capsule&\Mockery\MockInterface $capsule */
         $capsule = Mockery::mock(Capsule::class);
